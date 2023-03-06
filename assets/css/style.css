@@ -13,7 +13,7 @@ body {
 
 header {
   padding: 60px;
-  text-size-adjust: x-large;
+  font-size: x-large;
   text-align: center;
   background: lightblue;
   color: black;
@@ -21,44 +21,61 @@ header {
 
 nav {
   display: flex;
-  background-color: red;
+  background-color: lightblue;
   justify-content: flex-end;
 }
 
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 60px;
-  background: lightblue;
-  color: black;
-}
-
-.card {
-  flex: 1 0 200px;
-  padding: 10px;
+nav a {
+  color: darkblue;
+  padding: 14px 20px;
+  text-decoration: none;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
 }
 
-.card header {
+footer {
   padding: 20px;
-  background: lightblue;
-  color: black;
-}
-
-.card p {
   text-align: center;
+  background: #13293d;
+  color: #fff;
+  margin-top: auto;
 }
 
-.card img {
+.product {
+  display: flex;
+  width: 90%;
+  margin: 1% auto;
+}
+
+.product button {
+  font-size: 150%;
+}
+
+.product-slideshow {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
   width: 100%;
 }
+
+.product-details {
+  margin-left: 3%;
+  flex: 0 0 60%;
+}
+
 @media screen and (max-width: 768px) {
-  .card {
-    width: 50%;
+  main,
+  nav,
+  .product {
+    flex-direction: column;
   }
-  header {
-    background: blue;
+
+  .product-slideshow button {
+    display: none;
+  }
+
+  .product-details {
+    margin-left: 0;
   }
 }
