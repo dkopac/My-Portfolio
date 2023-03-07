@@ -54,6 +54,18 @@ html {
   color: #000;
 }
 
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: no-repeat center center/cover;
+  height: 768px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
 main {
   display: flex;
   flex-direction: column;
