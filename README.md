@@ -6,4 +6,4 @@ Had to use help from youtube videos to help me out this week as i was heavily co
 
 Alot of my code came from: https://www.youtube.com/watch?v=zX3ikOsQg58
 
-half of the pictures used in form were mine others used from websites used as placeholders for now because i am new to the web development world.
+half of the pictures used in were mine others used from websites used as placeholders for now because i am new to the web development world.
